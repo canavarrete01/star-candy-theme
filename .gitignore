@@ -1,0 +1,7 @@
+node_modules
+*.vsix
+
+# Ignore Extra Files
+.vscode
+dist
+.vscodeignore

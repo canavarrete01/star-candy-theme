@@ -1,0 +1,26 @@
+{
+  "name": "star-candy",
+  "displayName": "Star Candy",
+  "description": "pastel candy theme ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Star Candy Light",
+        "uiTheme": "vs",
+        "path": "./themes/Star-Candy-Light.json"
+      },
+      {
+        "label": "Star Candy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Star-Candy-Dark.json"
+      }
+    ]
+  }
+}
