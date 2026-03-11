@@ -1,9 +1,9 @@
 {
 	"name": "Star Candy",
+	"type": "light",
 	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#333333",
-        "list.activeSelectionIconForeground": "#fff"
+		"editor.background": "#FFFFEE",
+		"editor.foreground": "#333333"
 	},
 	"tokenColors": [
 		{
@@ -14,7 +14,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#AAAAAA"
+				"foreground": "#dfc5f3"
 			}
 		},
 		{

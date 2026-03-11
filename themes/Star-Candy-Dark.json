@@ -1,0 +1,210 @@
+{
+	"name": "Star Candy",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#262623",
+		"editor.foreground": "#FFFFEE",
+
+		"editorLineNumber.foreground": "#666666",
+		"editorLineNumber.activeForeground": "#ffbfe4",
+        
+		"editorCursor.foreground": "#ff96d3",
+		"editor.selectionBackground": "#f448ac55",
+		"editor.selectionHighlightBackground": "#ff96d344",
+		"editor.wordHighlightBackground": "#70cfff33",
+		"editor.wordHighlightStrongBackground": "#e7c7ff44",
+		"editor.findMatchBackground": "#ffee9c66",
+		"editor.findMatchHighlightBackground": "#ffee9c33",
+		"editorBracketMatch.background": "#f3e3ff33",
+		"editorBracketMatch.border": "#e7c7ff",
+		"editorIndentGuide.background1": "#99d98c33",
+		"editorIndentGuide.activeBackground1": "#b8e7ff66",
+		"editorWhitespace.foreground": "#ffffee2b",
+		
+        "activityBar.background": "#1f1f1d",
+		"sideBar.background": "#20201e",
+		"panel.background": "#20201e",
+		
+        "statusBar.background": "#1db695",
+		"statusBar.foreground": "#262623",
+		
+        "titleBar.activeBackground": "#262623",
+		"titleBar.activeForeground": "#FFFFEE",
+		
+        "list.activeSelectionBackground": "#f448ac55",
+		"list.activeSelectionForeground": "#FFFFEE",
+		"list.activeSelectionIconForeground": "#ffbfe4",
+		"list.hoverBackground": "#f3e3ff22",
+		"list.highlightForeground": "#70cfff",
+		
+        "button.background": "#ff96d3",
+		"button.foreground": "#262623",
+		"button.hoverBackground": "#ffbfe4",
+		
+        "input.background": "#2b2b28",
+		"input.foreground": "#FFFFEE",
+		"input.border": "#99d98c",
+		
+        "focusBorder": "#70cfff",
+
+		"terminal.ansiBlack": "#262623",
+		"terminal.ansiRed": "#f448ac",
+		"terminal.ansiGreen": "#99d98c",
+		"terminal.ansiYellow": "#ffee9c",
+		"terminal.ansiBlue": "#70cfff",
+		"terminal.ansiMagenta": "#e7c7ff",
+		"terminal.ansiCyan": "#b8e7ff",
+		"terminal.ansiWhite": "#FFFFEE"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b8e7ff"
+			}
+		},
+		{
+			"name": "Invalid - Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#f448ac"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#f3e3ff"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"storage"
+			],
+			"settings": {
+				"foreground": "#e7c7ff"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": [
+				"storage.type",
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#e7c7ff"
+			}
+		},
+		{
+			"name": "Language Constants",
+			"scope": [
+				"constant.language",
+				"support.constant",
+				"variable.language"
+			],
+			"settings": {
+				"foreground": "#ffee9c"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable"
+			],
+			"settings": {
+				"foreground": "#ffbfe4"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#70cfff"
+			}
+		},
+		{
+			"name": "Classes",
+			"scope": [
+				"entity.name.type",
+				"entity.other.inherited-class",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#e7c7ff"
+			}
+		},
+		{
+			"name": "Exceptions",
+			"scope": "entity.name.exception",
+			"settings": {
+				"foreground": "#660000"
+			}
+		},
+		{
+			"name": "Sections",
+			"scope": "entity.name.section",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numbers, Characters",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant"
+			],
+			"settings": {
+				"foreground": "#ffee9c"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#ffbfe4"
+			}
+		},
+		{
+			"name": "Strings: Escape Sequences",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#ffee9c"
+			}
+		},
+		{
+			"name": "Strings: Regular Expressions",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#f8e9f2"
+			}
+		},
+		{
+			"name": "Strings: Symbols",
+			"scope": "constant.other.symbol",
+			"settings": {
+				"foreground": "#ffee9c"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#f3e3ff"
+			}
+		}
+	]
+}
